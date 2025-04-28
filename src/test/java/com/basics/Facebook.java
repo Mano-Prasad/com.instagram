@@ -2,6 +2,7 @@ package com.basics;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -30,13 +31,19 @@ class Facebook {
 		driver.close();
 	}
 
-	@Test
+	@Test(priority = 1)
 	public void getTitle() {
 		Assert.assertEquals(driver.getTitle(), "Facebook – log in or sign up");
 	}
 
-	@Test
+	@Test(priority = 2)
 	public void getCurrentURL() {
 		Assert.assertEquals(driver.getCurrentUrl(), "https://www.facebook.com/");
+	}
+	
+	@Test(priority = 3)
+	public void getText() {
+		String actualText = driver.findElement(By.className("_8eso")).getText();
+		Assert.assertEquals(actualText, "Facebook helps you connect and share with the people in your life.");
 	}
 }

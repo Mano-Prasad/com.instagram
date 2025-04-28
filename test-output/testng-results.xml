@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-23T13:35:24 IST" name="Suite" finished-at="2025-04-23T13:35:35 IST" duration-ms="11288">
+  <suite started-at="2025-04-24T12:55:58 IST" name="Suite" finished-at="2025-04-24T12:56:08 IST" duration-ms="10632">
     <groups>
     </groups>
-    <test started-at="2025-04-23T13:35:24 IST" name="Test" finished-at="2025-04-23T13:35:35 IST" duration-ms="11288">
+    <test started-at="2025-04-24T12:55:58 IST" name="Test" finished-at="2025-04-24T12:56:08 IST" duration-ms="10632">
       <class name="com.basics.Facebook">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.basics.Facebook@23348b5d]" started-at="2025-04-23T13:35:24 IST" name="setUp" finished-at="2025-04-23T13:35:33 IST" duration-ms="9543" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.basics.Facebook@23348b5d]" started-at="2025-04-24T12:55:58 IST" name="setUp" finished-at="2025-04-24T12:56:08 IST" duration-ms="9731" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getCurrentURL()[pri:0, instance:com.basics.Facebook@23348b5d]" started-at="2025-04-23T13:35:34 IST" name="getCurrentURL" finished-at="2025-04-23T13:35:34 IST" duration-ms="156" status="PASS">
+        <test-method signature="getCurrentURL()[pri:0, instance:com.basics.Facebook@23348b5d]" started-at="2025-04-24T12:56:08 IST" name="getCurrentURL" finished-at="2025-04-24T12:56:08 IST" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCurrentURL -->
-        <test-method signature="getTitle()[pri:0, instance:com.basics.Facebook@23348b5d]" started-at="2025-04-23T13:35:34 IST" name="getTitle" finished-at="2025-04-23T13:35:34 IST" duration-ms="70" status="PASS">
+        <test-method signature="getTitle()[pri:0, instance:com.basics.Facebook@23348b5d]" started-at="2025-04-24T12:56:08 IST" name="getTitle" finished-at="2025-04-24T12:56:08 IST" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.basics.Facebook@23348b5d]" started-at="2025-04-23T13:35:34 IST" name="tearDown" finished-at="2025-04-23T13:35:35 IST" duration-ms="1319" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.basics.Facebook@23348b5d]" started-at="2025-04-24T12:56:08 IST" name="tearDown" finished-at="2025-04-24T12:56:08 IST" duration-ms="495" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

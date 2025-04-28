@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-23T13:43:20 IST" name="Suite" finished-at="2025-04-23T13:43:29 IST" duration-ms="8002">
+  <suite started-at="2025-04-28T13:02:16 IST" name="Suite" finished-at="2025-04-28T13:02:25 IST" duration-ms="9301">
     <groups>
     </groups>
-    <test started-at="2025-04-23T13:43:20 IST" name="Test" finished-at="2025-04-23T13:43:29 IST" duration-ms="8002">
+    <test started-at="2025-04-28T13:02:16 IST" name="Test" finished-at="2025-04-28T13:02:25 IST" duration-ms="9301">
       <class name="com.basics.Facebook">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.basics.Facebook@1a451d4d]" started-at="2025-04-23T13:43:21 IST" name="setUp" finished-at="2025-04-23T13:43:28 IST" duration-ms="7344" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.basics.Facebook@1a451d4d]" started-at="2025-04-28T13:02:16 IST" name="setUp" finished-at="2025-04-28T13:02:24 IST" duration-ms="8164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getCurrentURL()[pri:0, instance:com.basics.Facebook@1a451d4d]" started-at="2025-04-23T13:43:28 IST" name="getCurrentURL" finished-at="2025-04-23T13:43:28 IST" duration-ms="26" status="PASS">
+        <test-method signature="getCurrentURL()[pri:0, instance:com.basics.Facebook@1a451d4d]" started-at="2025-04-28T13:02:24 IST" name="getCurrentURL" finished-at="2025-04-28T13:02:24 IST" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCurrentURL -->
-        <test-method signature="getTitle()[pri:0, instance:com.basics.Facebook@1a451d4d]" started-at="2025-04-23T13:43:28 IST" name="getTitle" finished-at="2025-04-23T13:43:28 IST" duration-ms="31" status="FAIL">
+        <test-method signature="getTitle()[pri:0, instance:com.basics.Facebook@1a451d4d]" started-at="2025-04-28T13:02:25 IST" name="getTitle" finished-at="2025-04-28T13:02:25 IST" duration-ms="101" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Facebook â€“ log in or sign up] but found [Facebook – log in or sign up]]]>
@@ -67,7 +67,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.basics.Facebook@1a451d4d]" started-at="2025-04-23T13:43:28 IST" name="tearDown" finished-at="2025-04-23T13:43:29 IST" duration-ms="471" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.basics.Facebook@1a451d4d]" started-at="2025-04-28T13:02:25 IST" name="tearDown" finished-at="2025-04-28T13:02:25 IST" duration-ms="429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
